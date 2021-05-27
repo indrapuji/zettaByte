@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  background: linear-gradient(#262c5a 50%, #ddd 50%);
+}
+
+.btn {
+  min-width: 120px;
+}
+
+.price-table sup {
+  top: -1.5em;
+}
+
+.lis-font-weight-500 {
+  font-weight: 500;
+}
+
+.display-4 {
+  font-size: 4rem;
+}
+
+.price-table sup,
+.price-table small {
+  font-size: 1.25rem;
+  color: grey;
+}
+
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  color: grey;
+}
+
+.card:hover {
+  transform: scale(1.1) translateZ(0);
+}
+
+.alert {
+  display: none;
+}

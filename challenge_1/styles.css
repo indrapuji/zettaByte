@@ -1,0 +1,95 @@
+.container {
+  padding: 5px;
+  display: flex;
+  margin: 5px 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 250px;
+  height: max-content;
+  margin: 5px 5px;
+  position: relative;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.head-card img {
+  width: 100%;
+}
+
+.body-card {
+  padding: 10px 15px;
+}
+
+.body-card h4 {
+  margin: 0;
+}
+.sub {
+  margin: 0px;
+  color: grey;
+  font-size: 12px;
+}
+.body-card svg {
+  width: 31px;
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
+}
+
+.bottomShare {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomPosition {
+  margin-right: 10px;
+  color: #45b6fe;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topStatus {
+  display: flex;
+  padding: 10px;
+  align-content: center;
+}
+
+.imageStatus {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+.statusIcon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.statusText {
+  font-size: 12px;
+}
+
+.statusSub {
+  font-size: 12px;
+  color: grey;
+}
+
+.shareButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sharePotition {
+  justify-content: space-evenly;
+}
+
+.iconPosition {
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 550px) {
+  .card {
+    grid-column: span 4;
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <title>Challenge 2</title>
+  </head>
+  <body>
+    <div class="alert alert-success" id="demo">
+      A simple success alert—check it out!
+    </div>
+    <div class="mt-5">
+      <h1 class="text-center text-white">Simple Pricing!</h1>
+      <p class="text-center text-white-50">
+        The most advanced customer support tools with a simple <br />and affordable pricing. And you can always try for
+        30 days. <br />free!
+      </p>
+    </div>
+    <div style="margin-top: 100px;">
+      <div class="col-md-10 offset-md-1 mt-5">
+        <div class="card-deck mb-3">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark">
+              <h4 class="my-0 font-weight-normal text-white">BASIC</h4>
+            </div>
+            <div class="card-body text-center price-table">
+              <h1 class="display-4 lis-font-weight-500"><sup>$</sup>4<small>/month</small></h1>
+              <hr />
+              <ul class="list-unstyled mt-3 mb-4 text-left">
+                <li>10 Projects</li>
+                <li>10 Pages</li>
+                <li>100 Mb Disk Space</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-primary btn-sm" onclick="myFunction()">BUY NOW</button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark">
+              <div class="d-flex justify-content-between align-items-end">
+                <h4 class="my-0 font-weight-normal text-white">STANDARD</h4>
+                <p class="my-0 font-weight-normal text-white"><small>Save 15%</small></p>
+              </div>
+            </div>
+            <div class="card-body text-center price-table">
+              <h1 class="display-4 lis-font-weight-500"><sup>$</sup>8<small>/month</small></h1>
+              <hr />
+              <ul class="list-unstyled mt-3 mb-4 text-left">
+                <li>20 Projects</li>
+                <li>20 Pages</li>
+                <li>200 Mb Disk Space</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-primary btn-sm" onclick="myFunction()">BUY NOW</button>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-dark">
+              <h4 class="my-0 font-weight-normal text-white">ADVANCED</h4>
+            </div>
+            <div class="card-body text-center price-table">
+              <h1 class="display-4 lis-font-weight-500"><sup>$</sup>12<small>/month</small></h1>
+              <hr />
+              <ul class="list-unstyled mt-3 mb-4 text-left">
+                <li>40 Projects</li>
+                <li>40 Pages</li>
+                <li>500 Mb Disk Space</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-primary btn-sm" onclick="myFunction()">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 offset-md-2" style="margin-top: 50px;">
+      <h2 class="text-center my-5 text-secondary">Frequently Asked Questions</h2>
+      <div class="row my-5">
+        <div class="col-8 col-sm-6">
+          <h5 class="text-secondary">
+            How does free trial work?
+          </h5>
+          <p class="text-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magni vitae suscipit sit nulla eum quas
+            architecto animi molestias culpa.
+          </p>
+        </div>
+        <div class="col-4 col-sm-6">
+          <h5 class="text-secondary">
+            Can I cancel anytime?
+          </h5>
+          <p class="text-secondary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi quam pariatur vero nesciunt molestiae
+            maiores laborum debitis aliquam ab.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        alert('Success');
+      }
+    </script>
+  </body>
+</html>
