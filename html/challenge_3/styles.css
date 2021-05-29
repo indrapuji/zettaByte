@@ -1,0 +1,39 @@
+.topStatus {
+  display: flex;
+  align-content: center;
+}
+
+.topShare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statusIcon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.imageStatus {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.statusText {
+  font-size: 12px;
+  color: #45b6fe;
+}
+
+.posted {
+  color: black;
+}
+
+.statusSub {
+  font-size: 12px;
+  color: grey;
+}
+
+.sharePotition {
+  justify-content: space-evenly;
+  align-items: center;
+}
